@@ -24,8 +24,8 @@ def read_input():
 
 def main():
     input_data = read_input()
-    print("Solution for part one: {}".format(part_one(input_data)))
-    print("Solution for part two: {}".format(part_two(input_data)))
+    print(f"Solution for part one: {part_one(input_data)}")
+    print(f"Solution for part two: {part_two(input_data)}")
 
 
 if __name__ == "__main__":
